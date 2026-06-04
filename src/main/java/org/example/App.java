@@ -10,9 +10,6 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.nio.file.Paths;
 
-/**
- * Задание №1 + точка входа, вызывающая Task2 и Task3.
- */
 public class App {
 
     public static void main(String[] args) {
@@ -28,7 +25,7 @@ public class App {
 
         WebDriver webDriver = new ChromeDriver(options);
         try {
-            // ===== Задание №1: генератор паролей =====
+            // задание 1
             webDriver.get("https://www.calculator.net/password-generator.html");
 
             WebDriverWait wait = new WebDriverWait(webDriver, 15);
@@ -47,10 +44,7 @@ public class App {
             System.out.println(password);
             System.out.println();
 
-            // ===== Задание №2: IP-адрес =====
             Task2.run(webDriver);
-
-            // ===== Задание №3: прогноз погоды =====
             Task3.run(webDriver);
 
         } catch (Exception e) {

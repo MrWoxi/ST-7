@@ -14,10 +14,7 @@ import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 
-/**
- * Задание №3: прогноз погоды на сутки для Нижнего Новгорода (56°N 44°E)
- * через open-meteo.com. Результат выводится таблицей и сохраняется в result/forecast.txt.
- */
+// задание 3 - погода нижний новгород
 public class Task3 {
 
     private static final String URL =

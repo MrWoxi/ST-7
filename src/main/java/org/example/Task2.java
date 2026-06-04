@@ -6,9 +6,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
-/**
- * Задание №2: получить публичный IPv4-адрес клиента через api.ipify.org (формат JSON).
- */
+// задание 2 - ip адрес
 public class Task2 {
 
     public static void run(WebDriver driver) throws Exception {
